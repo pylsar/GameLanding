@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-h1{
+h1, h2{
     font-size: 80px;
 }
 h3{
@@ -32,6 +32,9 @@ a {
 span, p, h1, h2, h3, h4, h5, h6{
     color: #fff;
 } 
+p{
+    margin: 20px 0px;
+}
 
 
 
@@ -40,7 +43,7 @@ span, p, h1, h2, h3, h4, h5, h6{
 header{
     width: 100%;
     height: 100vh;
-    background-image: url('/img/bg_image1.jpg');
+    background-image: url('img/bg_image1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,6 +81,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.head__navigation ul li a {
+   text-transform: uppercase;
 }
 
 .head__right{
@@ -153,7 +159,7 @@ header{
 /************END_GALLARY********/
 
 .second{
-    background-image: url('/img/bg_image2.png');
+    background-image: url('img/bg_image2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,3 +182,44 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+
+.gallary__about h2{
+    padding-bottom: 10px; 
+}
+
+.gallary__about h2::after{
+    content: '';
+    display: block;
+    width: 130%;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.gallary__about__text{
+    width: 365px;
+    margin-top: 70px;
+    border: 1px solid red;
+    margin-left: auto;
+}
+.gallary__pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallary__pics__box{
+    max-width: 500px;
+    max-height: 610px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.gallary__pics__box img{
+    width: 500px;
+    height: 610px;
+}
+
