@@ -11,9 +11,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-h1{
+h1 span{
     font-size: 80px;
     line-height: 1;
+    display: inline-block;
+    min-width: 5px;
 }
 h2{
     font-size: 45px;
@@ -27,7 +29,6 @@ h3{
     width: 1240px;
     padding: 0 20px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 li {
     list-style: none;
@@ -345,7 +346,7 @@ header{
 }
 
 .four h3 {
-    margin-top: 145px;
+    padding-top: 145px;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -539,12 +540,11 @@ header{
 
 .newsletter__left{
     width: 40%;
-    border: 1px solid red;
+    filter: drop-shadow(10px 0 10px rgba(100,0,0,0.5));
 }
 
 .newsletter__right{
     width: 60%;
-    border: 1px solid red;
     padding-left: 65px;
 }
 .newsletter__right h3 {
@@ -626,7 +626,6 @@ footer{
 
 .footer{
     color: #fff; 
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -636,12 +635,10 @@ footer{
 
 .footer__nav{
     display: flex;
-    border: 1px solid red;
 }
 .footer__nav-menu{
     display: flex;
     text-transform: uppercase;
-    border: 1px solid red;
 }
 
 .footer__nav-menu li{
@@ -649,7 +646,6 @@ footer{
 }
 .footer__nav-social{
     display: flex;
-    border: 1px solid red;
     margin-left: 86px;
 }
 .footer__nav-social li {
