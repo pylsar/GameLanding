@@ -69,6 +69,7 @@ header{
 .head__head{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding-top: 22px;
 }
 
@@ -82,9 +83,69 @@ header{
     width: 100%;
 }
 
+/*burger*/
+.head__burger{
+    background: transparent;
+    display: none; 
+    cursor: pointer;
+    width: 22px;
+    height: 14px;
+    position: relative;
+    top: 58px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .2s ease;
+    border: none;
+    outline: none;
+}    
+.head__burger span, .head__burger span::before, .head__burger span::after {
+      display: block;
+      height: 2px;
+      width: 22px;
+      position: absolute;
+      transition: all .2s ease;
+      background: #fff;
+}
+.head__burger span {
+      top: 5px;
+      left: 0px;
+      pointer-events: none;
+}
+.head__burger span::before{
+    top: -5px ;
+    display: block;
+    content: "";
+}
+.head__burger span::after{
+    bottom: -5px;
+    display: block;
+    content: "";
+}
+
+.head__burger-close span{
+    background: none;
+}
+.head__burger-close span::before{
+    top: 0;
+    transform: rotate(-45deg);
+}
+.head__burger-close span::after{
+
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+.burgerToggle{
+    display: block;
+}
+
+/*end_burger*/
+
+
 .head__navigation{
     flex: 1;
 }
+
 .head__navigation ul {
     height: 100%;
     display: flex;
@@ -157,6 +218,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .head__content--btn{
@@ -182,6 +245,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .head__foot img {
