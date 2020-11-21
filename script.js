@@ -24,7 +24,7 @@ $('#dropdown').on('click', function(){
 
 
 
-// анимация футера
+// анимация хэдэра
 let tl = new TimelineMax();
 
 tl

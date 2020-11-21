@@ -644,6 +644,9 @@ footer{
 .footer__nav-menu li{
     margin-left: 36px;
 }
+.footer__nav-menu li a svg{
+    fill: white;
+}
 .footer__nav-social{
     display: flex;
     margin-left: 86px;
@@ -690,3 +693,13 @@ footer{
 
 }
 
+.footer__nav-social li a svg {
+    fill: white;
+    width: 24px;
+    height: 24px;
+
+}
+
+.footer__nav-social li a svg:hover{
+    fill: darkgray;
+}
