@@ -1,6 +1,14 @@
+@media screen and (max-width: 1260px) {
+    .gallary__about{
+        width: 43%;
+    }
+}
 @media screen and (max-width: 1200px) {
     h1 span{
         font-size: 60px;
+    }
+    h2 {
+        font-size: 50px;
     }
 }
 
@@ -23,6 +31,37 @@
     .head__navigation ul{
         flex-direction: column; 
     }
+    .gallary{
+        flex-direction: column;
+        width: 100%;
+    }
+    .gallary__about h3 {
+        margin-top: 20px;
+    }
+    .gallary__about h2::after{
+        display: none;
+    }
+    .gallary__about__text{
+        margin-left: 0;
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .gallary__about, .gallary__pics{
+        width: 100%;
+        height: 50vh; 
+    }
+    .gallary__about{
+        text-align: center;
+    }
+    .gallary__pics__box{
+        max-width: 350px;
+        max-height: 400px; 
+    }
+    .gallary__pics__box img{
+        width: 350px;
+        height: 400px;
+    }
 }
 
 
@@ -30,22 +69,183 @@
     h1 span{
         font-size: 50px;
     }
+    h2 {
+        font-size: 40px;
+    }
     h3 {
         font-size: 20px;
+    }
+    .feature__bold{
+        font-size: 24px;
+    }
+    .feature__bold::before,
+    .feature__bold:first-child::before{
+        margin: 0px 18px 0px 0px;  
+    }
+
+    .feature__bold:first-child::after{
+        height: 98px;
+    }
+    .feature__sub{
+        font-size: 14px;
+    }
+    .requirements{
+        max-width: 100%;
+    }
+    .requirements__items__item span{
+        font-size: 20px;
+    }
+    .requirements__items__item p{
+        font-size: 18px;
+    }
+    .quotes{
+        flex-direction: column;
+    }
+    .quotes__left {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .quotes__left p{
+        display: none;
+    }
+    .quotes__left h2{
+        margin-bottom: 30px;
+    }
+    .quotes__right{
+        width: 100%;
+    }
+    .newsletter__left{
+        display: none;
+    }
+    .newsletter__right{
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 0;
     }
 }
 
 @media screen and (max-width: 830px) {
+    h1{
+        margin-bottom: 20px;
+    }
     h1 span{
         font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
     }
     h3 {
         font-size: 16px;
     }
+    .features{
+        margin-left: 30%;
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
     .head__logo, .head__right{
         display: none;
+    }
+    .head__navigation{
+        width: 90%;
+    }
+    .head__content{
+        margin-top: 40px;
+    }
+    .head__content h1 {
+        display: flex;
+    }
+
+    .feature__bold{
+        font-size: 20px;
+    }
+    .feature__sub{
+        font-size: 12px;
+        width: auto;
+    }
+    .feature__bold:first-child::after{
+        height: 70px;
+    }
+    .requirements__items__item span{
+        font-size: 18px;
+    }
+    .requirements__items__item p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .feature__bold:first-child::after{
+        height: 83px;
+    }
+    .requir h3 {
+        padding-top: 20px;
+    }
+    .requir h2{
+        margin-bottom: 50px;
+    }
+    .quotes__card{
+        width: 280px;
+    }
+    .quotes__left{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quotes__right {
+        margin-top: 20px;
+    }
+    .newsletter__right-btn{
+        flex-direction: column;
+    }
+    .newsletter__right-adress{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .newsletter__right-adress input{
+        width: 240px;
+    }
+    .newsletter__right-adress{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    h1 span{
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .gallary__pics__box{
+        max-width: 260px;
+        max-height: 300px; 
+    }
+    .gallary__pics__box img{
+        width: 260px;
+        height: 300px;
+    }
+    .gallary__about__text{
+        margin: 10px auto;
+        width: 90%;
+    }
+    .gallary__about__text p{
+        font-size: 12px;
+    }
+    .features{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .quotes__left{
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 333px) {
+    .features{
+        width: 90%;
     }
 }
