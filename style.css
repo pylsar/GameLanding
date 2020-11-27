@@ -699,6 +699,7 @@ footer{
     align-items: center;
     border-bottom: 1px solid #fff;
     padding: 0px 0px 30px 0px;
+    width: 100%;
 }
 
 .footer__nav{
@@ -717,7 +718,8 @@ footer{
 }
 .footer__nav-social{
     display: flex;
-    margin-left: 86px;
+    margin-left: 66px;
+    margin-right: 20px;
 }
 .footer__nav-social li {
     margin-left: 54px;
@@ -731,6 +733,7 @@ footer{
     justify-content: space-between;
     align-items: center;  
     padding: 20px 0px; 
+    width: 100%;
 }
 
 .subfooter__copy{
@@ -743,6 +746,7 @@ footer{
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 .subfooter__policy-item{
     margin-left: 20px;
