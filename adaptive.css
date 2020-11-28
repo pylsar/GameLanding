@@ -224,6 +224,11 @@
     .footer__nav-social li:first-child{
         margin-left: 10px;
     }
+    .footer__nav-social li a svg {
+        width: 16px;
+        height: 16px;
+    
+    }
 }
 @media screen and (max-width: 520px) {
     .feature__bold:first-child::after{
@@ -297,8 +302,17 @@
 }
 
 @media screen and (max-width: 375px) {
+    .requir h2{
+        margin-bottom: 20px;
+    }
     .subfooter__policy{
         font-size: 8px;
+    }
+    .quotes__card:last-child{
+        display: none;
+    }
+    .newsletter__right p {
+        margin-bottom: 25px;
     }
 }
 

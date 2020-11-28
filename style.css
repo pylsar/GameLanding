@@ -24,6 +24,7 @@ h2{
 h3{
     font-size: 24px;
     line-height: 1;
+    margin-bottom: 10px;
 }
 .container{
     max-width: 1240px;
@@ -298,6 +299,7 @@ header{
     width: 365px;
     margin-top: 110px;
     margin-left: auto;
+    padding-right: 10px;
 }
 .gallary__pics{
     display: flex;
