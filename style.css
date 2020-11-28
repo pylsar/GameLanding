@@ -26,7 +26,7 @@ h3{
     line-height: 1;
 }
 .container{
-    width: 1240px;
+    max-width: 1240px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -688,7 +688,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 20vh; 
+    /* height: 20vh;  */
     width: 100%;
 }
 
